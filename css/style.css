@@ -1,0 +1,798 @@
+/* Propiedades personalizadas */
+:root {
+    --color-principal: #393939;
+    --color-secundario: #f0f0f0;
+    /* Tipografía */
+    --tipo-principal: Helvetica, Arial, sans-serif;
+    --tipo-secundaria: Verdana;
+}
+
+/* Reseteamos los margin y paddings de todas las etiquetas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body*/
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    height: 100%;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*Boton header body y footer*/
+button {
+    width: 134px;
+    height: 44px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 0.7vw;
+    align-items: center;
+    color: var(--color-secundario);
+    background-color: #8B48BF;
+    border: 0;
+    box-shadow: -6px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 0 7.1rem 0;
+    font-size: 13px;
+    height: 14rem;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    display: flex;
+    padding: .5rem;
+}
+
+.hamburguesa {
+    height: 41.25px;
+    width: 46.88px;
+    display: none;
+}
+
+/*Main*/
+.main {
+    font-size: 16px;
+}
+
+/*Sector Principal*/
+.sectorPrincipal {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    margin-bottom: 9rem;
+    height: auto;
+}
+
+.primerSector {
+    display: flex;
+    flex-direction: column;
+}
+
+.primerSector h1 {
+    font-size: 58px;
+    font-weight: 700;
+    width: 36vw;
+    height: auto;
+}
+
+.primerSector p {
+    margin: 3vw 0;
+    font-weight: 500;
+    width: 23vw;
+}
+
+.ImagenPrincipal {
+    display: flex;
+    width: 36.4vw;
+}
+
+.imagenPrincipal img {
+    box-sizing: border-box;
+    width: 36.4vw;
+}
+
+
+/*Segundo Sector*/
+.sectorSecundario {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+}
+
+.segundoSector {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.segundoSector h3 {
+    width: 30vw;
+    font-size: 36px;
+    margin-bottom: 2vw;
+}
+
+.segundoSector p {
+    width: 23vw;
+}
+
+.numerados {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.LateralSegundo {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    padding: 1.5vw 0;
+    box-sizing: border-box;
+    margin-left: 5rem;
+}
+
+.elemento {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.25vw;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.LateralSegundo h6 {
+    font-weight: 700;
+    padding: 0;
+    margin-left: 1.6vw;
+}
+
+span {
+    display: flex;
+    border-radius: 50px;
+    background-color: #8B48BF;
+    color: var(--color-secundario);
+    width: 3.5rem;
+    height: 2rem;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0.5vw;
+}
+
+.LateralSegundo p {
+    margin-bottom: 2.65rem;
+    width: 31vw;
+    padding-left: 4.8rem;
+    color: #B3B2B7;
+}
+
+/*Sector Caras*/
+.caras {
+    margin-bottom: 11.2rem;
+    height: auto;
+}
+
+.tituloPrincipalTarjetas {
+    margin: 3vw 0vw 1vw 0vw;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tarjetas {
+    height: auto;
+}
+
+.imagenesTarjetas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 4.6rem 0vw 1.3rem 0vw;
+    padding: 0vw 1vw 1.3rem 1vw;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.imagenesTarjetas img {
+    width: 70px;
+    z-index: 2;
+}
+
+.card {
+    background-color: rgb(249, 249, 249);
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 2vw 0 2vw;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    top: -5.3rem;
+}
+
+.titulosTarjetas {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    width: 100%;
+    padding: 0vw 0vw 1.3rem 0vw;
+    box-sizing: border-box;
+}
+
+.titulosTarjetas h6 {
+    margin-top: 3.5rem;
+}
+
+.Central {
+    margin: 0 2.6rem;
+}
+
+.textos {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 0 2.5rem 0;
+}
+
+.textos p {
+    width: 27.4vw;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    color: #B9B9C1;
+}
+
+.texto1 p {
+    width: 28vw;
+    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    width: 100vw;
+    min-width: 100vw;
+}
+
+/*Footer Superior*/
+.superiorFooter {
+    background-color: #8B48BF;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+    width: 100vw;
+    align-items: center;
+}
+
+.superiorFooter h2 {
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--color-secundario);
+    margin: 0;
+    padding: 0;
+    width: 35.4vw;
+    margin-right: 5rem;
+}
+
+.superiorFooter button {
+    background-color: #FFFFFF;
+    color: #8B48BF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+/*Footer Inferior*/
+.Inferior {
+    color: rgb(249, 249, 249);
+    padding-bottom: 3.3rem;
+    background-color: var(--color-principal);
+}
+
+.Inferior p {
+    display: flex;
+    justify-content: end;
+    margin-right: 10vw;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+.inferiorFooter {
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3.2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.lateralIzq {
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+}
+
+.iconos {
+    display: flex;
+    margin-top: 4.1rem;
+    justify-content: space-around;
+}
+
+i {
+    color: var(--color-secundario);
+}
+
+.Enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 27.2vw;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-bar {
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-bar a {
+    color: var(--color-secundario);
+    text-decoration: var(--color-secundario);
+}
+
+.footer-bar ul {
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-bar2 {
+    flex-direction: column;
+    display: flex;
+}
+
+.footer-bar2 ul {
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+}
+
+.footer-bar2 a {
+    color: var(--color-secundario);
+    text-decoration: var(--color-secundario);
+    justify-content: left;
+}
+
+input {
+    width: 201px;
+    height: 44px;
+    border-radius: 50px;
+    margin-right: 1vw;
+    text-align: start;
+    padding-left: 1vw;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario button {
+    width: 4.8vw;
+    padding-left: .63vw;
+    height: 2.6rem;
+    align-items: center;
+}
+
+/*Pseudo elementos*/
+input:hover::placeholder {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+input:active::placeholder {
+    color: rgb(56, 6, 239);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/*Pseudo clases*/
+.superiorFooter button:hover {
+    opacity: 1;
+    cursor: pointer;
+    scale: 1.1;
+    color: #8B48BF;
+    background-color: var(--color-secundario);
+}
+
+.superiorFooter button:active {
+    scale: 0.9;
+}
+
+a:link {
+    text-decoration: none;
+    color: var(--color-principal);
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--color-principal);
+    scale: 1.2;
+    transition: 1s;
+}
+
+a:active {
+    scale: 0.9;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    scale: 1.1;
+    color: var(--color-secundario);
+}
+
+button:active {
+    scale: 0.9;
+}
+
+.Enlaces a:hover {
+    cursor: pointer;
+    color: #B3B2B7;
+    scale: 1.2;
+    transition: 1s;
+}
+
+
+@media (max-width:600px) {
+    body {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    /*Header*/
+    header {
+        justify-content: space-around;
+        margin: 3.69rem 0 0 0;
+        height: auto;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .botonInicial {
+        display: none;
+    }
+
+    .hamburguesa {
+        display: block;
+        width: 46.8px;
+        height: 41.25px;
+        box-shadow: none;
+    }
+
+    /*Main*/
+    .main {
+        height: auto;
+    }
+
+    /*Sector Principal*/
+    .sectorPrincipal {
+        display: flex;
+        margin: 0;
+        width: 100vw;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .primerSector {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primerSector h1 {
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        /*margin-top: 6.16vh;*/
+    }
+
+    .primerSector p {
+        justify-content: center;
+        width: 73vw;
+        margin: 1.75rem 0;
+        text-align: center;
+    }
+
+    .primerSector button {
+        justify-content: center;
+        display: flex;
+        margin-bottom: 7.6rem;
+        align-items: center;
+    }
+
+    .imagenPrincipal {
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imagenPrincipal img {
+        box-sizing: border-box;
+        width: 80.2vw;
+    }
+
+    /*Segundo Sector*/
+    .sectorSecundario {
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 2.36vw;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .segundoSector {
+        width: 100vw;
+        align-items: center;
+        margin: 0;
+    }
+
+    .segundoSector p {
+        width: 90vw;
+        justify-content: center;
+        padding: 2.25rem 0 6.44rem 0;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .segundoSector h3 {
+        width: 100vw;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .numerados {
+        display: flex;
+        margin-right: 0;
+        padding: 0;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .LateralSegundo {
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .LateralSegundo .elemento {
+        width: 93vw;
+        margin: 0 0 0 7vw;
+        padding: 0;
+        background-color: rgba(139, 72, 191, 0.3);
+        border-bottom-left-radius: 25px;
+        border-top-left-radius: 25px;
+        box-sizing: border-box;
+    }
+
+    span {
+        align-items: center;
+    }
+
+    .LateralSegundo p {
+        margin: 1.94rem 5.8vw 1.875rem 9.2vw;
+        width: 85vw;
+        padding: 0;
+        justify-content: center;
+        text-justify: auto;
+        box-sizing: border-box;
+    }
+
+    /*Tarjetas*/
+    .caras {
+        margin-bottom: 0;
+    }
+
+    .imagen {
+        display: none;
+    }
+
+    .Nombre {
+        display: none;
+    }
+
+    .tituloPrincipalTarjetas {
+        margin: 7.25rem 0 4.625rem 0;
+    }
+
+    .imagenesTarjetas {
+        margin: 2vh 0vw 0.6vh 0vw;
+        padding: 0vw 1vw 1vh 1vw;
+    }
+
+    .card {
+        top: -2.19rem;
+        margin-bottom: 2.81rem;
+        padding-bottom: 2.4rem;
+    }
+
+    .titulosTarjetas h6 {
+        margin-top: 3.5rem;
+        margin-bottom: 1.31rem;
+        padding-bottom: 0;
+    }
+
+    .textos {
+        padding-bottom: 1vh;
+    }
+
+    .textos p {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .texto1 {
+        display: none;
+    }
+
+    .Texto3 {
+        display: none;
+    }
+
+    .boton {
+        margin: 0;
+        position: relative;
+        top: -1.2rem;
+    }
+
+    /*Footer*/
+    footer {
+        margin: auto;
+        height: auto;
+    }
+
+    /*Footer Superior*/
+    .superiorFooter {
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 4.8125rem;
+    }
+
+    .superiorFooter h2 {
+        width: 70vw;
+        margin: 2.5rem 0 3.125rem 0;
+        align-items: center;
+    }
+
+    .superiorFooter button {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 0 0 2.5rem 0;
+    }
+
+    /*Footer Inferior*/
+    .Inferior {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+    }
+
+    .Inferior p {
+        justify-content: center;
+        padding: 0 0 2.97rem 0;
+        margin: 0;
+    }
+
+    .inferiorFooter {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lateralIzq {
+        flex-direction: column-reverse;
+        padding: 0;
+        margin-bottom: 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .lateralIzq img {
+        padding-bottom: 2.97rem;
+        width: 30vw;
+    }
+
+    .iconos {
+        width: 100%;
+        justify-content: space-around;
+        margin: 0;
+    }
+
+    .iconos i {
+        margin-bottom: 2.94rem;
+        margin-top: 3.6rem;
+    }
+
+    .Enlaces {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    /*Formulario*/
+    .formulario {
+        display: flex;
+        margin: 3.266rem 10vw 2.95rem 10vw;
+        justify-content: space-evenly;
+    }
+
+    .formulario input {
+        width: 64.2vw;
+        margin: 0;
+        padding: 0 0 0 1vw;
+    }
+
+    .formulario button {
+        width: 13.2vw;
+        align-items: center;
+    }
+}
